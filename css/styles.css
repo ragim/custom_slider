@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#slider{
+    margin: 0 auto;
+    white-space: nowrap;
+    background-color: red;
+
+}
+#slider_content{
+    overflow: hidden;
+    width: 84%;
+    display: inline-block;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+#left_button
+{
+    float: left;
+}
+#right_button
+{
+    float: right;
+}
+
+#left_button, #right_button
+{
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    width: 8%;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.icon{
+    margin-top:100%;
+}
